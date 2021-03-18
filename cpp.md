@@ -50,7 +50,41 @@ p1.second;                 // 返回对象p1中名为second的公有数据成员
 
 .compare(const string& str)：字符串比较
 
+.substr(int pos, int n)
 
+
+
+#### unordered_set
+
+```c++
+std::unordered_set<std::string> uset{ "http://c.biancheng.net/c/",
+                                     "http://c.biancheng.net/java/",
+                                   "http://c.biancheng.net/linux/"};
+```
+
+begin()
+
+end()
+
+cbegin()
+
+cend()
+
+empty()
+
+size()
+
+find(key)
+
+count(key)
+
+emplace()
+
+insert()
+
+erase()
+
+clear()
 
 
 
@@ -144,5 +178,13 @@ p1.second;                 // 返回对象p1中名为second的公有数据成员
 
 #### 编译
 
-1. 预编译->优化->汇编
-2. 链接
+1. 预处理
+2. 编译
+3. 汇编
+4. 链接
+
+
+
+### 面试题
+
+1. 模板成员函数可以是虚函数吗？
